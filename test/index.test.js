@@ -112,9 +112,9 @@ describe("integration tests", function() {
         }
     }).timeout(600000);
 
-    it("Jesse should install version (github) of aio-cli ( app plugin only ) and run developer experience", async function() {
+    it("Jesse should install version (--next) of aio-cli ( app plugin only ) and run developer experience", async function() {
         shell(`
-            npm install --no-save adobe/aio-cli-plugin-app
+            npm install --no-save @adobe/aio-cli-plugin-app
             node ../node_modules/@adobe/aio-cli-plugin-app/bin/run app --version
         `);
 
