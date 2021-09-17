@@ -119,7 +119,7 @@ describe("integration tests", function() {
         cd("project");
     
         shell(`
-            npx aio --no-login -i ../../test/console.json -e dx/asset-compute/worker/1
+            npx aio app:init --no-login -i ../../test/console.json -e dx/asset-compute/worker/1
             ls
         `);
     

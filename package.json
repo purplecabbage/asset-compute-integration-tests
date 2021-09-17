@@ -15,6 +15,6 @@
   "homepage": "https://github.com/adobe/asset-compute-integration-tests",
   "scripts": {
     "test": "mocha test",
-    "posttest": "eslint ."
+    "_posttest": "eslint ."
   }
 }
